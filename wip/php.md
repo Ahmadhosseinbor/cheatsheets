@@ -108,3 +108,9 @@ var_dump(isset($options['key']), empty($options['key'])); // true, false
 var_dump(isset($options['blank']), empty($options['blank'])); // true, true
 var_dump(isset($options['nothing']), empty($options['nothing'])); // false, true
 ```
+### Comments
+```php
+/* Block comments */
+// Line comments
+# Line comments
+```
